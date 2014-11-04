@@ -70,7 +70,6 @@ require "polaczenie_z_baza.php";
 			<div class="bottom-zawartosc-border">
 			</div>
     		<div class="content drag-desired">
-            	<p span class="p">WOJCIECH OLENDER - PROJEKT</P>
                 <?php
 
 				$result = mysql_query("SELECT * FROM olender");

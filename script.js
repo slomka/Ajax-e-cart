@@ -1,4 +1,4 @@
-﻿var purchased=new Array();
+var purchased=new Array();
 var totalprice=0;
 
 $(document).ready(function(){

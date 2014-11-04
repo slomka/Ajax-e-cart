@@ -6,7 +6,7 @@ require "../polaczenie_z_baza.php";
 if(!$_POST['img']) die("Nie ma takiego produktu!");
 
 $img=mysql_real_escape_string(end(explode('/',$_POST['img'])));
-$row=mysql_fetch_assoc(mysql_query("SELECT * FROM olender WHERE img='".$img."'"));
+$row=mysql_fetch_assoc(mysql_query("SELECT * FROM ecart WHERE img='".$img."'"));
 
 echo '{status:1,id:'.$row['id'].',price:'.$row['cena'].',txt:\'\
 \

@@ -1,6 +1,6 @@
 <?php
 
-if(!defined('INCLUDE_CHECK')) die('Nie masz uprawnieñ do u¿ywania tego pliku');
+if(!defined('INCLUDE_CHECK')) die('Nie masz uprawnieÅ„ do uÅ¼ywania tego pliku');
 
 
 /* konfiguracja bazy danych */
@@ -8,12 +8,12 @@ if(!defined('INCLUDE_CHECK')) die('Nie masz uprawnieñ do u¿ywania tego pliku');
 $db_host		= 'localhost';
 $db_user		= 'root';
 $db_pass		= 'root';
-$db_database	= 'olender'; 
+$db_database	= 'ecart'; 
 
 
 
 
-$link = mysql_connect($db_host,$db_user,$db_pass) or die('Nie mo¿na ustanowiæ po³¹czenia z baz¹ danych');
+$link = mysql_connect($db_host,$db_user,$db_pass) or die('Nie moÅ¼na ustanowiÄ‡ poÅ‚Ä…czenia z bazÄ… danych');
 
 mysql_select_db($db_database,$link);
 mysql_query("SET names UTF8");

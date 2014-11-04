@@ -1,6 +1,6 @@
 ﻿<?php
 
-if(!defined('INCLUDE_CHECK')) die('Nie posaidasz uprawnień do wykonywania tego kaatlogu');
+if(!defined('INCLUDE_CHECK')) die('Nie posiadasz uprawnień do wykonywania tego katlogu');
 
 
 /* konfiguracja bazyd anych */
